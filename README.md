@@ -9,10 +9,10 @@ Reactってなんですか？？そう聞かれたときに簡単に答えたい
 ## はじめの一歩
 
 $ npm install -g create-react-app  
-$ cd quick-react
+$ cd quick-react  
 $ npm start  
 
-npmでアプリケーションをインストールしてカレントディレクトリを変更する。そして、アプリケーションを起動
+npmでアプリケーションをインストールしてカレントディレクトリを変更する。  そして、アプリケーションを起動
 
 Laravelの起動とあんまり変わらない。
 
