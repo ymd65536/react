@@ -4,15 +4,15 @@
 ## ざっくりと 
 
 Reactってなんですか？？そう聞かれたときに簡単に答えたい  
-「Facebookが開発によって開発したJavaScript のライブラリのひとつ」
+「Facebookが開発したJavaScript のライブラリのひとつ」
 
 ## はじめの一歩
 
 $ npm install -g create-react-app  
-$ cd quick-react
+$ cd quick-react  
 $ npm start  
 
-npmでアプリケーションをインストールしてカレントディレクトリを変更する。そして、アプリケーションを起動
+npmでアプリケーションをインストールしてカレントディレクトリを変更する。  そして、アプリケーションを起動
 
 Laravelの起動とあんまり変わらない。
 
@@ -20,12 +20,12 @@ Laravelの起動とあんまり変わらない。
 git remote add リポジトリ  
 git push -u origin master  
 
-以下のようなエラーが出たら
-リモートリポジトリにすでにoriginが存在しています。  
-fatal: remote origin already exists.  
+以下のようなエラーが出たら  
+> リモートリポジトリにすでにoriginが存在しています。  
+> fatal: remote origin already exists.  
 
-このコマンドを打つこと
-git remote rm origin  
+このコマンドを打つこと  
+$ git remote rm origin  
 
 
 リモートリポジトリを作っておかないとエラーを吐く。  
