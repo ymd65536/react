@@ -1,4 +1,3 @@
-
 # はじめに
 
 ## ざっくりと 
@@ -6,17 +5,7 @@
 Reactってなんですか？？そう聞かれたときに簡単に答えたい  
 「Facebookが開発したJavaScript のライブラリのひとつ」
 
-## はじめの一歩
-
-$ npm install -g create-react-app  
-$ cd quick-react  
-$ npm start  
-
-npmでアプリケーションをインストールしてカレントディレクトリを変更する。  そして、アプリケーションを起動
-
-Laravelの起動とあんまり変わらない。
-
-## 忘れやすいこと
+# 忘れやすいこと
 git remote add リポジトリ  
 git push -u origin master  
 
@@ -33,9 +22,51 @@ $ git remote rm origin
 > remote: Repository not found.  
 > fatal: repository 'リポジトリ' not found
 
+
+## はじめの一歩
+
+$ npm install -g create-react-app  
+$ cd quick-react  
+$ npm start  
+
+npmでアプリケーションをインストールしてカレントディレクトリを変更する。  そして、アプリケーションを起動
+
+Laravelの起動とあんまり変わらない。
+
+# create-react-appのディレクトリ構成
+
+## node_module
+
+とにかくライブラリなどが入ったディレクトリ
+babel先生もここにいる。
+
+## public
+
+|ファイル名|用途|
+|:---|:---|
+|favicon.ico     |タブアイコン、ファビコン|
+|index.html     |トップページのテンプレート|
+|logo192.png  |レスポンシブ対応用の画像|
+|logo512.png  |レスポンシブ対応用の画像|
+|manifest.json |Reactアプリケーションにおける設定ファイル|
+|robots.txt      |??? なんだこれ？？|
+
+## src
+
+|ファイル名||
+|:---|:--|
+|App.css|App.jsで記載したJSX 修飾用|
+|App.js||
+|App.test.js||
+|index.css||
+|index.js||
+|logo.svg||
+|serviceWorker.js||
+|setupTests.js||
+
 # 実はまだわかってないこと
 
-# yarn
+## yarn
 
 何奴？？？
 要約すると
