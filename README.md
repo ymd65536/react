@@ -26,6 +26,7 @@ $ git remote rm origin
 ## はじめの一歩
 
 $ npm install -g create-react-app  
+$ create-react-app quick-react  
 $ cd quick-react  
 $ npm start  
 
