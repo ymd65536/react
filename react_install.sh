@@ -1,9 +1,8 @@
 # !/bin/bash
-
-sudo yum update && \
-sudo amazon-linux-extras install nginx1.12 && \
-sudo systemctl start nginx.service && \
-sudo systemctl enable nginx.service && \
-sudo yum -y install git && \
-git colne https://github.com/ymd65536/react.git
-
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash && \
+. ~/.nvm/nvm.sh && \
+nvm install node && \
+cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf_backup && \
+cp ./nginx.conf /etc/nginx/nginx.conf && \
+sudo systemctl restart nginx
+echo "React Setup Complete!!"
